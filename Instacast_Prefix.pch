@@ -1,0 +1,68 @@
+//
+// Prefix header for all source files of the 'Instacast' target in the 'Instacast' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <UIKit/UIKit.h>
+    #import <VemedioDatabase/VemedioDatabase.h>
+    #import "VemedioKit.h"
+
+    #import "Defines.h"
+    #import "Application.h"
+    #import "CDModel.h"
+
+    #import "PortraitNavigationController.h"
+    #import "DatabaseManager.h"
+    #import "PlaybackManager.h"
+    #import "CacheManager.h"
+    #import "UIManager.h"
+    #import "ImageCacheManager.h"
+    #import "AudioSession.h"
+    #import "AudioSession+UpNextPlaylist.h"
+    #import "SubscriptionManager.h"
+    #import "Sound.h"
+    #import "UIViewController+PresentationEnqueuing.h"
+    #import "ICAppearanceManager.h"
+    #import "UIViewController+UIViewController_NavbarFix.h"
+    #import "UIViewController+Alert.h"
+#endif
+
+#define SCREEN_HEIGHT (CGRectGetHeight([((UIWindow*)[((NSObject*)[UIApplication sharedApplication].delegate) valueForKey:@"window"]).screen bounds]))
+
+
+#ifdef DEBUG
+#define DebugLog(format, args...) if (format != nil) NSLog(@"[%@:%d] %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:format, ##args])
+//#define DebugLog(...) [App.applicationLogger logFuncDebug:__func__ line:__LINE__ msg:__VA_ARGS__];
+#else
+#define DebugLog(format, args...)
+#endif
+
+#ifdef TEST
+#define TestLog(format, args...) if (format != nil) NSLog(@"[%@:%d] %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:format, ##args])
+#else
+#define TestLog(format, args...)
+#endif
+
+#define FatalLog(...) [App.applicationLogger logFuncError:__func__ line:__LINE__ msg:__VA_ARGS__]; int* a=NULL; *a=5
+#define ErrLog(...) [App.applicationLogger logFuncError:__func__ line:__LINE__ msg:__VA_ARGS__];
+
+#define USER_DEFAULTS [NSUserDefaults standardUserDefaults]
+#define FourCC2Str(code) (char[5]){(code >> 24) & 0xFF, (code >> 16) & 0xFF, (code >> 8) & 0xFF, code & 0xFF, 0}
+
+
+#define IC_SIZE_INTEGRAL(x) x.width = ceilf(x.width); x.height = ceilf(x.height)
+
+
+#define VMLoggerError(...)  \
+[self.logger logFuncError:__func__ line:__LINE__ msg:__VA_ARGS__]
+
+#define VMLoggerInfo(...)  \
+[self.logger logFuncInfo:__func__ line:__LINE__ msg:__VA_ARGS__]
+
+#define WEAK_SELF __weak typeof(self) weakSelf = self;
+#define STRONG_SELF typeof(self) self = weakSelf;
+
+#define IS_IOS8 ([[UIDevice currentDevice].systemVersion hasPrefix:@"8"])
+#define IS_IOS11 ([[UIDevice currentDevice].systemVersion hasPrefix:@"11"])

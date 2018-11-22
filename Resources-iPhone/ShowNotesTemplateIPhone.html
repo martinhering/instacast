@@ -1,0 +1,472 @@
+<html>
+<head>
+<style type="text/css">
+
+body {
+	margin: 0px;
+	padding: 0px;
+    padding-top:10px;
+	color: #7f7f7f;
+    background-color: #f4f4f4;
+	font-size: 13px;
+	font-family: "Helvetica Neue", sans-serif;
+    -webkit-touch-callout: none;
+}
+    
+pre {
+    white-space: normal;
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0px;
+}
+
+#description {
+	padding-left: 15px;
+	padding-bottom: 0px;
+	padding-right: 15px;
+	padding-top: 0px;
+}
+
+p {
+padding-left: 0px;
+padding-bottom: 15px;
+padding-right: 0px;
+padding-top: 0px;
+margin: 0px;
+}
+
+h1,h2,h3,h4,h5 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+iframe {
+	visibility: hidden;
+	border-style: none;
+	border-width: 0px;
+	display: none;
+	max-width: 320px;
+}
+
+.label {
+	color: black;
+	text-align: right;
+}
+
+table {
+	margin-top: 15px;
+}
+
+td {
+	font-size: 11px;
+}
+
+.category_arrow {
+	line-height: 8px;
+	display: inline;
+	color: #333;
+	font-weight: bold;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+img {
+	padding-left: 0px;
+	padding-bottom: 15px;
+	padding-right: 0px;
+	padding-top: 15px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 0px;
+	max-width: 290px;
+    height: auto;
+}
+
+object {
+	display: none;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+hr {
+	border: 0px;
+}
+
+.button_box {
+	padding-top: 13px;
+	text-align: center;
+	display: block;
+	height: 31px;
+
+	border-color: #c0c6cd;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 10px;
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.04, rgb(234,237,240)),
+    color-stop(0.52, rgb(255,255,255))
+	);
+	-webkit-user-select: none;
+}
+
+
+.button_selected {
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.28, rgb(1,93,230)),
+    color-stop(0.64, rgb(5,141,245))
+	);
+	
+	color: white;
+}
+
+.button_not_selected
+{
+	text-shadow: 0px 1px white;
+}
+
+#preview_button {
+	float: left;
+	width: 280px;
+	margin-right: 9px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#episodes_list {
+	margin-top: 20px;
+}
+
+#episodes_list .label {
+	font-size: 13px;
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+    
+#episodes {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+    
+    -webkit-user-select: none;                /* disable cut copy paste */
+    -webkit-touch-callout: none;              /* disable callout, image save panel */
+    -webkit-tap-highlight-color: transparent; /* "turn off" link highlight */
+}
+#episodes .row {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+    
+    background-image:url(###IMPORT_EPISODE_IMAGE_URL###);
+    background-repeat:no-repeat;
+    background-position: 288px 8px;
+    background-size: 17px 22px;
+}
+#episodes .row_even {
+	background-color: #eee;
+}
+#episodes .even {
+	background-color: #eee;
+}
+#episodes .title_audio {
+    display: inline-block;
+    color: black;
+    width: 290px;
+    font-weight: normal;
+}
+
+#episodes .title_video {
+    display: inline-block;
+    color: black;
+    background-image:url(###VIDEO_IMAGE_URL###);
+    background-repeat:no-repeat;
+    background-position: 0px 3px;
+    background-size: 10px 9px;
+    padding-right: 10px;
+    width: 255px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+    
+#episodes .date {
+	color: #7f7f7f;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#episodes .date_video {
+	color: #7f7f7f;
+	font-style: normal;
+	font-weight: normal;
+    padding-left: 15px;
+}
+
+#episodes .selected .date {
+
+}
+
+#episodes .selected .title_audio {
+    
+}
+
+#episodes .selected .title_video {
+    
+}
+
+#episodes .selected {
+	background-color: #ccc;
+
+}
+ul {
+	margin-left: 18px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding: 0px;
+}
+li {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+    
+dt {
+    margin-top: 20px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#other_podcasts {
+	margin-top: 5px;
+    margin-left: 5px;
+	width: 310px;
+	height: 92px;
+	 overflow:scroll;
+	 -webkit-overflow-scrolling: touch;
+}
+    
+.other_podcast {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-top: 0px
+	padding: 0px;
+	display: inline-block;
+	height: 72px;
+	width: 72px;
+	box-shadow: 0px 1px 3px 0px #ccc;
+}
+
+.other_podcast img {
+	padding: 0px;
+	margin: 0px;
+	height: 72px;
+	width: 72px;
+}
+
+#other_podcasts_container {
+	margin-top: 20px;
+}
+#other_podcasts_container .label {
+	font-size: 13px;
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+    
+.podlove-contributors img {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 520px;
+    display: inline-block;
+    position:relative;
+    top: 5px;
+}
+
+.podlove-contributors {
+    display: block;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-device-pixel-ratio:1.5) {
+    
+    .other_podcast {
+        border:none;
+        box-shadow: none;
+    }
+    
+}
+
+</style>
+
+<script>
+function onTouchStartButton(event) {
+  event.stopPropagation();
+  event.preventDefault();
+  
+  var target = event.target;
+  if (target.nodeType == 3) {
+  	target = target.parentNode;
+  }
+  
+  target.className = 'button_box button_selected';
+}
+
+function onTouchMoveButton(event) {
+  event.stopPropagation();
+  event.preventDefault();
+  
+  var target = event.target;
+  if (target.nodeType == 3) {
+    target = target.parentNode;
+  }
+  
+  var touch = event.touches[0];
+  var element = document.elementFromPoint(touch.pageX, touch.pageY);
+  if (element.nodeType == 3) {
+    element = element.parentNode;
+  }
+  
+  if (element == target) {
+    target.className = 'button_box button_selected';
+  }
+  else {
+    target.className = 'button_box button_not_selected';
+  }
+}
+
+function onTouchCancelButton(event) {
+ 	event.stopPropagation();
+  event.preventDefault();
+  
+  var target = event.target;
+  if (target.nodeType == 3) {
+  	target = target.parentNode;
+  }
+  
+ 	target.className = 'button_box button_not_selected';
+}
+
+function onTouchEndButton(event) {
+ 	
+ 	var target = event.target;
+  if (target.nodeType == 3) {
+  	target = target.parentNode;
+  }
+  
+ 	if (target.className == 'button_box button_selected') {
+    document.location.href = target.getAttribute('href');
+  }
+  
+  onTouchCancelButton(event);
+}
+
+<!-- Table -->
+
+function _getTableEventTarget(event)
+{
+    var target = event.target;
+	
+    if (target.nodeType == 3 || target.className.indexOf("row") == -1) {
+        target = target.parentNode;
+    }
+  
+    if (target.nodeType == 3 || target.className.indexOf("row") == -1) {
+        target = target.parentNode;
+    }
+
+    return target;
+}
+
+var touchTimer;
+var selectionCanceled;
+
+function onTouchStartTable(event) {
+    event.stopPropagation();
+    //event.preventDefault();
+  
+    var target = _getTableEventTarget(event);
+    
+    touchTimer = window.setTimeout(function() {
+                                   if (target.className.indexOf("selected") == -1) {
+                                        target.className = target.className + " selected";
+                                        selectionCanceled = false;
+                                   }}, 100);
+}
+
+function onTouchMoveTable(event) {
+
+    clearTimeout(touchTimer);
+	onTouchCancelTable(event);
+}
+
+function onTouchCancelTable(event) {
+ 	event.stopPropagation();
+    //event.preventDefault();
+  
+    selectionCanceled = true;
+    clearTimeout(touchTimer);
+    
+    var target = _getTableEventTarget(event);
+
+    if (target.className.indexOf("even") != -1) {
+        target.className = "row even";
+    } else {
+        target.className = "row odd";
+    }
+}
+
+function onTouchEndTable(event) {
+
+	var target = _getTableEventTarget(event);
+	if (!selectionCanceled && target.className.indexOf("selected") == -1) {
+        target.className = target.className + " selected";
+	}
+	
+ 	window.setTimeout(function() {
+                      onTouchCancelTable(event);
+                      }, 500);
+}
+
+function setContent(content) {
+    var element = document.getElementById("content");
+    element.innerHTML = content;
+    return "ok";
+}
+
+
+</script>
+
+</head>
+
+<body id="content">
+
+</body>
+</html>

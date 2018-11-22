@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="1" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bookmark" representedClassName="CDBookmark" syncable="YES">
+        <attribute name="episodeGuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="episodeHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="episodeTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feedTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feedURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="feedURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="imageURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Category" representedClassName="CDCategory" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Category" inverseName="parent" inverseEntity="Category" syncable="YES"/>
+        <relationship name="feed" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Feed" inverseName="categories" inverseEntity="Feed" syncable="YES"/>
+        <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Category" inverseName="children" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <entity name="Chapter" representedClassName="CDChapter" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="linkURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="linkURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timecode" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="episode" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Episode" inverseName="chapters" inverseEntity="Episode" syncable="YES"/>
+    </entity>
+    <entity name="Episode" representedClassName="CDEpisode" syncable="YES">
+        <attribute name="archived" optional="YES" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="consumed" optional="YES" attributeType="Boolean" defaultValueString="YES" indexed="YES" syncable="YES"/>
+        <attribute name="deeplinkURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="deeplinkURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="downloaded" optional="YES" transient="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="explicitContent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fulltext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="guid" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="imageURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastDownloaded" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastPlayed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="linkURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="linkURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectHash" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="paymentURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="paymentURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pubDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="starred" optional="YES" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeLeft" optional="YES" transient="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video" optional="YES" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <relationship name="chapters" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Chapter" inverseName="episode" inverseEntity="Chapter" syncable="YES"/>
+        <relationship name="episodeLists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EpisodeList" inverseName="episodes" inverseEntity="EpisodeList" syncable="YES"/>
+        <relationship name="feed" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Feed" inverseName="episodes" inverseEntity="Feed" syncable="YES"/>
+        <relationship name="media" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Medium" inverseName="episode" inverseEntity="Medium" syncable="YES"/>
+        <relationship name="playlistEpisodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlaylistEpisode" inverseName="episode" inverseEntity="PlaylistEpisode" syncable="YES"/>
+    </entity>
+    <entity name="EpisodeList" representedClassName="CDEpisodeList" parentEntity="List" syncable="YES">
+        <attribute name="audio" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="continuousPlayback" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="descending" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="downloaded" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="downloading" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="groupByPodcast" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notDownloaded" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="notStarred" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="orderBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="played" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="query" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="starred" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="unfinished" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="unplayed" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="video" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <relationship name="episodes" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Episode" inverseName="episodeLists" inverseEntity="Episode" syncable="YES"/>
+        <relationship name="includedFeeds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Feed" inverseName="episodeLists" inverseEntity="Feed" syncable="YES"/>
+    </entity>
+    <entity name="Feed" representedClassName="CDFeed" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="contentHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="copyright" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="etag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="explicitContent" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="fulltext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="imageURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="linkURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="linkURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="owner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownerEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parked" optional="YES" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="password" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="paymentURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="paymentURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sourceURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="sourceURL_" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="subscribed" optional="YES" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Category" inverseName="feed" inverseEntity="Category" syncable="YES"/>
+        <relationship name="episodeLists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EpisodeList" inverseName="includedFeeds" inverseEntity="EpisodeList" syncable="YES"/>
+        <relationship name="episodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Episode" inverseName="feed" inverseEntity="Episode" syncable="YES"/>
+        <relationship name="properties" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FeedProperty" inverseName="feed" inverseEntity="FeedProperty" syncable="YES"/>
+    </entity>
+    <entity name="FeedProperty" representedClassName="CDFeedProperty" syncable="YES">
+        <attribute name="boolValue" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="dateValue" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="doubleValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="integerValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stringValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="feed" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Feed" inverseName="properties" inverseEntity="Feed" syncable="YES"/>
+    </entity>
+    <entity name="List" representedClassName="CDList" isAbstract="YES" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Medium" representedClassName="CDMedium" syncable="YES">
+        <attribute name="byteSize" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fileURL" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="fileURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mimeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="episode" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Episode" inverseName="media" inverseEntity="Episode" syncable="YES"/>
+    </entity>
+    <entity name="Playlist" representedClassName="CDPlaylist" parentEntity="List" syncable="YES">
+        <relationship name="playlistEpisodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlaylistEpisode" inverseName="list" inverseEntity="PlaylistEpisode" syncable="YES"/>
+    </entity>
+    <entity name="PlaylistEpisode" representedClassName="CDPlaylistEpisode" syncable="YES">
+        <attribute name="rank" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="episode" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Episode" inverseName="playlistEpisodes" inverseEntity="Episode" syncable="YES"/>
+        <relationship name="list" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Playlist" inverseName="playlistEpisodes" inverseEntity="Playlist" syncable="YES"/>
+    </entity>
+    <entity name="SmartPlaylist" representedClassName="CDSmartPlaylist" parentEntity="List" syncable="YES">
+        <attribute name="smartPredicate" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="smartPredicate_" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bookmark" positionX="-585" positionY="153" width="128" height="208"/>
+        <element name="Category" positionX="-162" positionY="279" width="128" height="118"/>
+        <element name="Chapter" positionX="448" positionY="404" width="128" height="163"/>
+        <element name="Episode" positionX="99" positionY="5" width="128" height="538"/>
+        <element name="EpisodeList" positionX="-137" positionY="-154" width="128" height="315"/>
+        <element name="Feed" positionX="-371" positionY="-10" width="128" height="568"/>
+        <element name="FeedProperty" positionX="-578" positionY="380" width="128" height="163"/>
+        <element name="List" positionX="-371" positionY="-252" width="128" height="88"/>
+        <element name="Medium" positionX="-47" positionY="560" width="128" height="133"/>
+        <element name="Playlist" positionX="-146" positionY="-292" width="128" height="58"/>
+        <element name="PlaylistEpisode" positionX="106" positionY="-288" width="128" height="103"/>
+        <element name="SmartPlaylist" positionX="-515" positionY="-99" width="128" height="73"/>
+    </elements>
+</model>

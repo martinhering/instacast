@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Cellular Data (3G)</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Auto-Refresh</string>
+			<key>Key</key>
+			<string>EnableAutoRefreshOn3G</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Streaming Allowed</string>
+			<key>Key</key>
+			<string>EnableStreamingOver3G</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Downloading Allowed</string>
+			<key>Key</key>
+			<string>EnableCachingOver3G</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>If Caching is not allowed for Cellular Data (3G), pending downloads are put on the Download Waiting List.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Subscriptions</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Auto-Refresh</string>
+			<key>Key</key>
+			<string>AutoRefresh</string>
+			<key>DefaultValue</key>
+			<integer>2</integer>
+			<key>Values</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Never</string>
+				<string>Once a day</string>
+				<string>Every 12 hours</string>
+				<string>Every 6 hours</string>
+				<string>Every hour</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>All Episodes</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Sort Order</string>
+			<key>Key</key>
+			<string>EpisodesSortOrder</string>
+			<key>DefaultValue</key>
+			<string>NewerFirst</string>
+			<key>Values</key>
+			<array>
+				<string>NewerFirst</string>
+				<string>OlderFirst</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Newer first</string>
+				<string>Older first</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Sort Grouped</string>
+			<key>Key</key>
+			<string>GroupEpisodes</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Unseen Badge</string>
+			<key>Key</key>
+			<string>ShowApplicationBadgeForUnseen</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Feeds</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Sort Order</string>
+			<key>Key</key>
+			<string>FeedSortOrder</string>
+			<key>DefaultValue</key>
+			<string>NewerFirst</string>
+			<key>Values</key>
+			<array>
+				<string>NewerFirst</string>
+				<string>OlderFirst</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Newer first</string>
+				<string>Older first</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Show Episodes</string>
+			<key>Key</key>
+			<string>FeedShowOnlyLatestUnseen</string>
+			<key>DefaultValue</key>
+			<integer>200</integer>
+			<key>Values</key>
+			<array>
+				<integer>200</integer>
+				<integer>100</integer>
+				<integer>50</integer>
+				<integer>10</integer>
+				<integer>5</integer>
+				<integer>0</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Latest 200</string>
+				<string>Latest 100</string>
+				<string>Latest 50</string>
+				<string>Latest 10</string>
+				<string>Latest 5</string>
+				<string>All</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Downloads</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Auto-Download</string>
+			<key>File</key>
+			<string>AutoCache</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Auto-Remove</string>
+			<key>File</key>
+			<string>AutoClearCache</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Playback</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enable Background</string>
+			<key>Key</key>
+			<string>EnabledBackgroundPlayback</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Continuous Playback</string>
+			<key>Key</key>
+			<string>ContinuousPlayback</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Replay after Pause</string>
+			<key>Key</key>
+			<string>ReplayAfterPause</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Skipping Back</string>
+			<key>Key</key>
+			<string>PlayerSkipBackPeriod</string>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>Values</key>
+			<array>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>60</integer>
+				<integer>120</integer>
+				<string>300</string>
+				<string>600</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>5 seconds</string>
+				<string>10 seconds</string>
+				<string>20 seconds</string>
+				<string>30 seconds</string>
+				<string>1 minute</string>
+				<string>2 minutes</string>
+				<string>5 minutes</string>
+				<string>10 minutes</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Skipping Forward</string>
+			<key>Key</key>
+			<string>PlayerSkipForwardPeriod</string>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>Values</key>
+			<array>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>60</integer>
+				<integer>120</integer>
+				<string>300</string>
+				<string>600</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>5 seconds</string>
+				<string>10 seconds</string>
+				<string>20 seconds</string>
+				<string>30 seconds</string>
+				<string>1 minute</string>
+				<string>2 minutes</string>
+				<string>5 minutes</string>
+				<string>10 minutes</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Speed</string>
+			<key>Key</key>
+			<string>DefaultPlaybackSpeed</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>3</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Normal</string>
+				<string>Plus Half (1.5x)</string>
+				<string>Double (2x)</string>
+				<string>Half (1/2x)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Interface Sounds</string>
+			<key>Key</key>
+			<string>UISoundEnabled</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Disable Auto-Lock</string>
+			<key>Key</key>
+			<string>DisableAutoLock</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Notifications</string>
+			<key>File</key>
+			<string>Notifications</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Sharing</string>
+			<key>File</key>
+			<string>Accounts</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Directory</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Additional Language</string>
+			<key>Key</key>
+			<string>DirectoryThirdLanguageChoice</string>
+			<key>DefaultValue</key>
+			<string>none</string>
+			<key>Values</key>
+			<array>
+				<string>none</string>
+				<string>de</string>
+				<string>ja</string>
+				<string>fr</string>
+				<string>ru</string>
+				<string>es</string>
+				<string>it</string>
+				<string>nl</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>none</string>
+				<string>de</string>
+				<string>ja</string>
+				<string>fr</string>
+				<string>ru</string>
+				<string>es</string>
+				<string>it</string>
+				<string>nl</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Crash &amp; Failure Diagnostics</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Send Reports</string>
+			<key>Key</key>
+			<string>AllowSendingDiagnostics</string>
+			<key>DefaultValue</key>
+			<integer>2</integer>
+			<key>Values</key>
+			<array>
+				<integer>2</integer>
+				<integer>1</integer>
+				<integer>0</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Automatically Send</string>
+				<string>Ask Before Sending</string>
+				<string>Don&apos;t Send</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>Help Vemedio improve its products and services by automatically sending reports upon application crash or failure. Reports do not include any personal or private data.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

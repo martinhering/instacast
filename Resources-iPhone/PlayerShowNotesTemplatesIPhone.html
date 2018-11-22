@@ -1,0 +1,410 @@
+<html>
+<head>
+<style type="text/css">
+
+body {
+	background-color: #333333;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 15px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+#description {
+	padding-left: 10px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+#buttons {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+}
+h1,h2,h3,h4,h5 {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+iframe {
+	visibility: hidden;
+	border-style: none;
+	border-width: 0px;
+	display: none;
+	max-width: 320px;
+}
+
+.label {
+	color: #385487;
+	font-weight: bold;
+	text-align: right;
+}
+
+table {
+	margin-top: 10px;
+}
+
+td {
+	font-size: 13px;
+}
+
+.category_arrow {
+	line-height: 8px;
+	display: inline;
+	color: #385487;
+	font-weight: bold;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+img {
+	padding-left: 0px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 0px;
+	max-width: 300px;
+    height: auto;
+}
+
+object {
+	display: none;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #236ed8;
+}
+
+hr {
+	border-top-color: #d8d8d8;
+	border-top-style: solid;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 1px;
+}
+
+.button_box {
+	padding-top: 13px;
+	text-align: center;
+	display: block;
+	height: 31px;
+
+	border-color: #c0c6cd;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 10px;
+	font-size: 15px;
+	color: #385487;
+	font-weight: bold;
+	
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.04, rgb(234,237,240)),
+    color-stop(0.52, rgb(255,255,255))
+	);
+	-webkit-user-select: none;
+}
+
+
+.button_selected {
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.28, rgb(1,93,230)),
+    color-stop(0.64, rgb(5,141,245))
+	);
+	
+	color: white;
+}
+
+.button_not_selected
+{
+	text-shadow: 0px 1px white;
+}
+
+
+#website_button {
+	float: left;
+	width: 130px;
+	margin-right: 9px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#itunes_button_half {
+	float: left;
+	width: 130px;
+	margin-right: 9px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#itunes_button {
+	float: left;
+	width: 280px;
+	margin-right: 9px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#preview_button {
+	float: left;
+	width: 280px;
+	margin-right: 9px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+    
+#episodes {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    border-bottom-color: #e5e5e5;
+    border-bottom-style: solid;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    width: 100%;
+    
+    -webkit-user-select: none;                /* disable cut copy paste */
+		-webkit-touch-callout: none;              /* disable callout, image save panel */
+		-webkit-tap-highlight-color: transparent; /* "turn off" link highlight */
+}
+#episodes .row {
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 1px;
+	border-top-color: #e5e5e5;
+	padding-top: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 30px;
+	border-top-style: solid;
+}
+#episodes .row_even {
+	background-color: #f2f2f2;
+}
+#episodes .even {
+	background-color: #f2f2f2;
+}
+    #episodes .title_audio {
+        width: 230px;
+        display: inline-block;
+        color: #385487;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; 
+    }
+    
+    #episodes .title_video {
+        width: 212px;
+        display: inline-block;
+        color: #385487;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        background-image:url(###VIDEO_IMAGE_URL###);
+        background-repeat:no-repeat;
+        background-position: 217px 3px;
+        padding-right: 18px;
+    }
+    
+    #episodes .selected .title_audio {
+        color: white;
+    }
+    
+    #episodes .selected .title_video {
+        color: white;
+        background-image:url(###VIDEO_SELECTED_IMAGE_URL###);
+    }
+    
+#episodes .date {
+	color: #7f7f7f;
+	font-style: normal;
+	font-weight: normal;
+	width: 70px;
+	text-align: right;
+	display: inline-block;
+	overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}
+#episodes .selected .date {
+	color: white;
+}
+#episodes .selected {
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.0, rgb(1,93,230)),
+    color-stop(1.0, rgb(5,141,245))
+	);
+
+}
+</style>
+
+<script>
+function onTouchStartButton(event) {
+  event.stopPropagation();
+  event.preventDefault();
+  
+  var target = event.target;
+  if (target.nodeType == 3) {
+  	target = target.parentNode;
+  }
+  
+  target.className = 'button_box button_selected';
+}
+
+function onTouchMoveButton(event) {
+  event.stopPropagation();
+  event.preventDefault();
+  
+  var target = event.target;
+  if (target.nodeType == 3) {
+    target = target.parentNode;
+  }
+  
+  var touch = event.touches[0];
+  var element = document.elementFromPoint(touch.pageX, touch.pageY);
+  if (element.nodeType == 3) {
+    element = element.parentNode;
+  }
+  
+  if (element == target) {
+    target.className = 'button_box button_selected';
+  }
+  else {
+    target.className = 'button_box button_not_selected';
+  }
+}
+
+function onTouchCancelButton(event) {
+ 	event.stopPropagation();
+  event.preventDefault();
+  
+  var target = event.target;
+  if (target.nodeType == 3) {
+  	target = target.parentNode;
+  }
+  
+ 	target.className = 'button_box button_not_selected';
+}
+
+function onTouchEndButton(event) {
+ 	
+ 	var target = event.target;
+  if (target.nodeType == 3) {
+  	target = target.parentNode;
+  }
+  
+ 	if (target.className == 'button_box button_selected') {
+    document.location.href = target.getAttribute('href');
+  }
+  
+  onTouchCancelButton(event);
+}
+
+<!-- Table -->
+
+function _getTableEventTarget(event)
+{
+    var target = event.target;
+	
+    if (target.nodeType == 3 || target.className.indexOf("row") == -1) {
+        target = target.parentNode;
+    }
+  
+    if (target.nodeType == 3 || target.className.indexOf("row") == -1) {
+        target = target.parentNode;
+    }
+
+    return target;
+}
+
+var touchTimer;
+var selectionCanceled;
+
+function onTouchStartTable(event) {
+    event.stopPropagation();
+    //event.preventDefault();
+  
+    var target = _getTableEventTarget(event);
+    
+    touchTimer = window.setTimeout(function() {
+                                   if (target.className.indexOf("selected") == -1) {
+                                        target.className = target.className + " selected";
+                                        selectionCanceled = false;
+                                   }}, 100);
+}
+
+function onTouchMoveTable(event) {
+
+    clearTimeout(touchTimer);
+	onTouchCancelTable(event);
+}
+
+function onTouchCancelTable(event) {
+ 	event.stopPropagation();
+    //event.preventDefault();
+  
+    selectionCanceled = true;
+    clearTimeout(touchTimer);
+    
+    var target = _getTableEventTarget(event);
+
+    if (target.className.indexOf("even") != -1) {
+        target.className = "row even";
+    } else {
+        target.className = "row odd";
+    }
+}
+
+function onTouchEndTable(event) {
+
+	var target = _getTableEventTarget(event);
+	if (!selectionCanceled && target.className.indexOf("selected") == -1) {
+        target.className = target.className + " selected";
+	}
+	
+ 	window.setTimeout(function() {
+                      onTouchCancelTable(event);
+                      }, 500);
+}
+
+
+</script>
+
+</head>
+
+<body>
+
+<div id="content">
+###CONTENT###
+</div>
+
+</body>
+</html>

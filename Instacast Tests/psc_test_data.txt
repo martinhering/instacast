@@ -1,0 +1,12 @@
+<psc:chapters version="1.2">
+  <psc:chapter start="00:00:01.000" title="Intro" />
+  <psc:chapter start="00:01:32.000" title="Software-Entwicklung für Mac und iOS" />
+  <psc:chapter start="00:21:24.000" title="iCloud und Bedienkonzepte" />
+  <psc:chapter start="00:41:02.000" title="WWDC 2013" />
+  <psc:chapter start="01:06:59.000" title="Geschenke und Glaskugeling" />
+  <psc:chapter start="01:53:16.000" title="Netz auf der re:publica" image="http://assets.vemedio.com/test_data/Tim-Pritlove-2009-Logo-Fullsize-300x300.jpg"/>
+  <psc:chapter start="02:20:21.000" title="Geld und Authentifizierung"  image="http://assets.vemedio.com/test_data/Holgi+klein460.jpg"/>
+  <psc:chapter start="02:27:24.000" title="Erhöhter Kommunikationsbedarf" />
+  <psc:chapter start="03:01:20.000" title="Hausüberwachung und -steuerung" />
+  <psc:chapter start="03:46:30.000" title="Verabschiedung" />
+</psc:chapters>

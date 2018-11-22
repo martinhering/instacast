@@ -1,0 +1,28 @@
+body {
+	color: #7f7f7f;
+    background-color: #f4f4f4;
+}
+
+a {
+	color: #333;
+}
+
+#episodes .row_even {
+	background-color: #eee;
+}
+#episodes .even {
+	background-color: #eee;
+}
+
+#episodes .date {
+	color: #7f7f7f;
+}
+
+#episodes .date_video {
+	color: #7f7f7f;
+}
+
+#episodes .selected {
+	background-color: #ccc;
+
+}

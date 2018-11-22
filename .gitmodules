@@ -1,0 +1,3 @@
+[submodule "Submodules/VemedioDatabase"]
+	path = Submodules/VemedioDatabase
+	url = git@github.com:martinhering/VemedioDatabase.git

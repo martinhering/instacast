@@ -1,0 +1,520 @@
+/* Resource: Main */
+"en_US" = "de_DE";
+
+/* WebController.m */
+"Close" = "Schließen";
+"Either the server is not available or you may not have an internet connection." = "Entweder ist der Server derzeit nicht erreichbar, oder Sie haben möglicherweise keine Internetverbindung.";
+"Loading website failed." = "Webseite nicht geladen.";
+
+/* PlayerTimerButton.m */
+"Sleep Timer disabled." = "Sleep Timer deaktiviert";
+"Sleep Timer set to %d minutes." = "Sleep Timer gestellt auf %d Minuten";
+
+/* PlaylistsCollectionViewController.m */
+"%d Lists" = "%d Listen";
+"1 List" = "1 Liste";
+"Edit List Settings" = "Listeneinstellungen bearbeiten";
+"No Lists" = "Keine Listen";
+
+/* PlayerController.m */
+"Hide" = "Schließen";
+"Media not loaded." = "Media nicht geladen.";
+"Show Notes" = "Show Notes";
+"The file is not available anymore." = "Die Datei ist nicht mehr vorhanden.";
+
+/* MediaFilesViewController.m */
+"1 GB" = "1 GB";
+"10 GB" = "10 GB";
+"2 GB" = "2 GB";
+"5 GB" = "5 GB";
+"512 MB" = "512 MB";
+"Are you sure you want to delete everything? Images, downloads and partial downloads will be lost!" = "Sind Sie sicher, dass Sie alles löschen möchten? Bilder, Downloads und Teildownloads gehen dabei verloren!";
+"Clearing the cache is not possible while Instacast is downloading episodes. Please try again later." = "Der Cache kann nicht gelöscht werden, während Instacast Folgen herunterlädt. Bitte probieren Sie es später noch einmal.";
+"Currently Downloading" = "Lädt gerade";
+"Delete All Content" = "Alle Inhalte löschen";
+"Delete Content" = "Inhalte löschen";
+"Downloaded Content" = "Geladen";
+"No Limit" = "Kein Limit";
+"Nothing downloaded yet." = "Bisher nichts geladen";
+"Offline Storage" = "Offline-Speicher";
+"Played episodes and old content will be automatically deleted when the storage limit is exceeded." = "Alte und bereits gespielte Folgen werden zuerst gelöscht, sobald das Speicherlimit erschöpft ist.";
+"Only Delete Played" = "Nur Gespielte löschen";
+"Storage Limit" = "Speicherlimit";
+
+/* DirectorySearchViewController.m */
+"Author" = "Autor";
+"Description" = "Beschreibung";
+"Search or Enter URL" = "Suchen oder URL eingeben";
+
+/* ICCloudManager.m */
+"Authentication with Instacast Cloud has failed. Please logout and login again." = "Authentifizierung fehlgeschlagen. Bitte loggen Sie sich aus und wieder ein.";
+"Instacast Cloud Authentication" = "Instacast Cloud Authentifizierung";
+"Instacast Cloud Maintenance" = "Instacast Cloud Wartungsarbeiten";
+"Instacast Cloud is temporary unavailable. Normal service will be back soon!" = "Instacast Cloud ist z.Z. nicht verfügbar. Sind bald wieder zurück!";
+"Request failed." = "Request failed.";
+
+/* FeedSettingsViewController.m */
+"1 Minute" = "1 Minute";
+"10 Minutes" = "10 Minuten";
+"10 Seconds" = "10 Sekunden";
+"2 Minutes" = "2 Minuten";
+"20 Seconds" = "20 Sekunden";
+"30 Seconds" = "30 Sekunden";
+"5 Minutes" = "5 Minuten";
+"5 Seconds" = "5 Sekunden";
+"Are you sure you want to reset all custom subscription settings to default?" = "Sind Sie sicher, dass Sie alle Abo-Einstellungen auf die Werkseinstellungen zurücksetzen möchten?";
+"Audio Content" = "Audioinhalte";
+"Auto-Delete Content" = "Inhalte automatisch löschen";
+"Auto-Download Content" = "Inhalte automatisch laden";
+"Crazy (3x)" = "Verrückt (3x)";
+"Enable News Mode to only keep the most recent episode(s) of a podcast." = "Einschalten, um das Herunterladen und Löschen von Inhalten für Podcasts zu optimieren, die häufig und mehrmals am Tag veröffentlichen.";
+"Enable to show all episodes regardless of whether or not they are still available on the publisher's server." = "Einschalten, um alle Folgen anzuzeigen, auch wenn diese online nicht mehr verfügbar sind.";
+"Episodes" = "Folgen";
+"Fast (2x)" = "Schnell (2x)";
+"Faster (1.5x)" = "Schneller (1.5x)";
+"Finished Playing" = "Fertig gespielt";
+"Marked as Played" = "Als Gespielt markiert";
+"Newest First" = "Neueste zuerst";
+"News Mode" = "News Mode";
+"Normal (1x)" = "Normal (1x)";
+"Oldest First" = "Älteste zuerst";
+"Playback" = "Wiedergabe";
+"Reset" = "Zurücksetzen";
+"Reset to Defaults" = "Zurücksetzen";
+"Resets subscription specific settings back to default settings." = "Setzt Abo-spezifische Einstellungen auf die Standardeinstellungen zurück.";
+"Show Unavailable Episodes" = "Nicht verfügbare Folgen anzeigen";
+"Skipping Back" = "Rückwärts spulen";
+"Skipping Forward" = "Vorwärts spulen";
+"Slower (0.5x)" = "Langsamer (1/2x)";
+"Sort Order" = "Sortierung";
+"Speed" = "Geschwindigkeit";
+"Subscription Settings" = "Abo-Einstellungen";
+"Video Content" = "Videoinhalte";
+
+/* SubscriptionManager.m */
+"Last Updated: %@" = "Letztes Update: %@";
+"New episode available in Instacast." = "Neue Folge in Instacast verfügbar.";
+"Refreshing finished and %d new episodes are available." = "Aktualisieren beendet und %d neue Folgen verfügbar.";
+"Refreshing finished and a new episode is available." = "Aktualisieren beendet und 1 neue Folge verfügbar.";
+"Refreshing finished and there are no new episodes available." = "Aktualisieren beendet ohne neue Folgen.";
+
+/* EpisodeShareController.m */
+"%d hours" = "%d Stunden";
+"%d minutes" = "%d Minuten";
+"1 hour" = "1 Stunde";
+"1 minute" = "1 Minute";
+"Copy Share URL" = "URL kopieren";
+"Share on Twitter" = "Auf Twitter posten";
+"Share via Email" = "Via E-Mail teilen";
+"Share via Tweetbot" = "Mit Tweetbot teilen";
+"Sharing" = "Teilen";
+"at %@" = "nach %@";
+"at %@ %@" = "nach %@ %@";
+"at the beginning" = "am Anfang";
+
+/* DownloadsViewController.m */
+"%@ left" = "%@ übrig";
+"%@ of %@" = "%@ von %@";
+"Cancel All" = "Alle abbrechen";
+"Downloads" = "Downloads";
+"Downloads paused" = "Downloads angehalten";
+"Resume" = "Weiterladen";
+"Pause" = "Pause";
+"Paused" = "Angehalten";
+"Waiting to download" = "Auf Download warten";
+
+/* FeedViewController.m */
+"Are you sure you want to unsubscribe '%@'?" = "Sind Sie sicher, dass Sie '%@' abbestellen möchten?";
+"Podcast Info" = "Podcastinfo";
+"Unsubscribe" = "Abbestellen";
+"Updated" = "Aktualisiert";
+"Website" = "Webseite";
+
+/* PlayerSpeedButton.m */
+"Playback set to 1.5x speed." = "Wiedergabe mit 1.5x Geschwindigkeit";
+"Playback set to double speed." = "Wiedergabe mit doppelter Geschwindigkeit";
+"Playback set to half speed." = "Wiedergabe mit halber Geschwindigkeit";
+"Playback set to original speed." = "Wiedergabe in Originalgeschwindigkeit";
+"Playback set to triple speed." = "Wiedergabe mit dreifacher Geschwindigkeit";
+
+/* ICCloudAccount.m */
+"Your name?" = "Ihr Name?";
+
+/* ICProgressSlider.m */
+"Slider Knob" = "Auswahl-Taster";
+"Swipe left or right to adjust %@." = "Wische nach links oder rechts um %@ anzupassen..";
+
+/* PlayerFullscreenVideoViewController.m */
+"Done" = "Fertig";
+
+/* EpisodesTableViewCell.m */
+"%d h %d min" = "%d h %d min";
+"%d min" = "%d min";
+"Delete" = "Löschen";
+"More" = "Mehr";
+"No Title" = "Kein Titel";
+"Today" = "Heute";
+"Yesterday" = "Gestern";
+
+/* PlaybackControlsViewController.m */
+"Add Bookmark" = "Lesezeichen hinzufügen";
+"Backward" = "Rückwärts";
+"Fine Scrubbing" = "Fein-Scrubbing";
+"Forward" = "Vorwärts";
+"Half-Speed Scrubbing" = "Schnelles Scrubbing";
+"Hi-Speed Scrubbing" = "Hi-Speed Scrubbing";
+"Pause" = "Pause";
+"Play" = "Wiedergabe";
+"Playback time set to %d:%02d:%02d" = "Wiedergabezeit gesetzt auf %d:%02d:%02d";
+"Please enter a bookmark title." = "Bitte geben Sie einen Titel ein.";
+"Quarter-Speed Scrubbing" = "Langsames Scrubbing";
+"Time Value" = "Zeit-Angabe";
+
+/* MainViewController_4.m */
+"Extensions" = "Erweiterungen";
+"Lists" = "Listen";
+"Podcasts" = "Podcasts";
+"Syncing" = "Synchronisieren";
+
+/* StoreMembershipViewController.m */
+"Purchase Instacast Cloud membership to unlock all extensions." = "Erwerben Sie eine Mitgliedschaft und alle Erweiterungen freizuschalten.";
+"If you have an Instacast Cloud membership, please sign in to unlock all extensions." = "Falls Sie eine Mitgliedschaft besitzen, loggen Sie sich bitte ein, um alle Erweiterungen freizuschalten.";
+"Show Memberships" = "Mitgliedschaften anzeigen";
+"Sign in" = "Einloggen";
+
+/* CloudAccountViewController.m */
+"Account" = "Account";
+"Auto-Flattr" = "Auto-Flattr";
+"Automatic payments are turned off – either because Instacast Cloud membership has been canceled, or because Instacast Cloud membership has been purchased through the App Store." = "Automatische Abbuchungen sind abgeschaltet, entweder weil die Mitgliedschaft gekündigt oder im App Store erworben wurde.";
+"Email" = "E-Mail";
+"Extend Basic Membership" = "Basic Mitgliedschaft verlängern";
+"Extend Senator Membership" = "Senator Mitgliedschaft verlängern";
+"Purchase Basic Membership" = "Basic Mitgliedschaft erwerben";
+"Purchase Senator Membership" = "Senator Mitgliedschaft erwerben";
+"Log out" = "Ausloggen";
+"Membership" = "Mitgliedschaft";
+"Name" = "Name";
+"Not activated" = "Nicht aktiviert";
+"Profile" = "Profil";
+"Services" = "Dienste";
+"You have a lifetime membership." = "Sie besitzen eine lebenslängliche Mitgliedschaft.";
+"You are not an Instacast Cloud member. Be awesome and get your membership today!\n\nMemberships unlock all in-app purchases for free and also include a free Instacast Mac license." = "Sie sind kein Mitglied. Erwerben Sie Ihre Mitgliedschaft heute noch!\n\nMitgliedschaften schalten alle In-App Käufe kostenlos frei und beinhalten eine Lizenz für Instacast Mac.";
+"Your membership is active until %@." = "Mitgliedschaft aktiv bis zum %@.";
+"Your membership is active. Next automatic payment on %@." = "Mitgliedschaft aktiv. Nächste automatische Abbuchung am %@.";
+
+/* EpisodeListEditorViewController.m */
+"%@ Extension locked!" = "%@ Erweiterung gesperrt!";
+"%@ is available as an optional in-app purchase. Please go to 'Extensions' in the main menu and purchase '%@'." = "%@ is verfügbar als optionaler In-App Kauf. Bitte gehen Sie zu 'Erweiterungen' im Hauptmenu und erwerben '%@'.";
+"Add" = "Hinzufügen";
+"Add Selected Podcasts" = "Ausgewählte Podcasts hinzufügen";
+"All Podcasts" = "Alle Podcasts";
+"Appearance" = "Erscheinungsbild";
+"Ascending" = "Aufsteigend";
+"Audio" = "Audio";
+"Contains Keyword" = "Enthält Schlüsselworte";
+"Continuous Playback" = "Kontinuierliche Wiedergabe";
+"Deactivate attributes of episodes that should not be included in this episode list." = "Deaktivieren Sie Eigenschaften von Folgen, die nicht mit in die Liste aufgenommen werden sollen.";
+"Descending" = "Absteigend";
+"Downloaded" = "Heruntergeladen";
+"Duration" = "Dauer";
+"Edit List" = "Liste bearbeiten";
+"Enable 'Continuous Playback' to copy remaining episodes to Up Next when playback starts." = "Aktivieren Sie 'Kontinuierliche Wiedergabe', um verbleibende Folgen bei Wiedergabe nach 'Nächste Folgen' zu kopieren.";
+"Enable 'Group by Podcast' to order episodes according to podcast priority. Change the podcast priority by manually reordering podcasts in the podcast list." = "Aktivieren Sie 'Nach Podcast gruppieren' um Folgen auch nach Ihrer Podcastpriorität zu sortieren. Ändern Sie die Podcastpriorität indem Sie Einträge in der Podcastliste manuell umsortieren.";
+"Enter a keyword that episodes must contain." = "Schlüsselwort eingeben, das Folgen enthalten müssen.";
+"Group by Podcast" = "Nach Podcast gruppieren";
+"Include Attributes" = "Eigenschaften berücksichtigen";
+"Include Podcasts" = "Podcasts berücksichtigen";
+"Keyword" = "Schlüsselwort";
+"Last Downloaded" = "Zuletzt geladen";
+"Last Played" = "Zuletzt gespielt";
+"New List" = "Neue Liste";
+"Not Downloaded" = "Nicht Geladen";
+"Not Starred" = "Kein Favorit";
+"Order By" = "Sortiert nach";
+"Order Options" = "Sortieroptionen";
+"Played" = "Gespielt";
+"Publish Date" = "Veröffentlicht";
+"Remove" = "Entfernen";
+"Save" = "Speichern";
+"Show" = "Zeigen";
+"Starred" = "Favorit";
+"Time Left" = "Abspielzeit übrig";
+"Unfinished" = "Angespielt";
+"Unplayed" = "Ungespielt";
+"Video" = "Video";
+
+/* SubscriptionsTableViewController.m */
+"1 subscription" = "1 Abonnement";
+"1 subscription found" = "1 Abonnement gefunden";
+"No subscription" = "Kein Abonnement";
+"No subscription found" = "Kein Abonnement gefunden";
+"Shows list of podcast episodes." = "Zeigt eine Liste der Podcast-Folgen.";
+"%d Subscriptions found" = "%d Abonnements gefunden";
+
+/* PlaylistsTableViewController.m */
+"Looking for new episodes" = "Nach neuen Folgen suchen";
+"Pull to refresh" = "Ziehen zum Aktualisieren";
+
+/* DirectoryAuthorsViewController.m */
+"%d More Authors" = "%d weitere Autoren";
+
+/* BookmarksCollectionViewController.m */
+"%d Bookmarks" = "%d Lesezeichen";
+"%d Episodes" = "%d Folgen";
+"1 Bookmark" = "1 Lesezeichen";
+"1 Episode" = "1 Folge";
+"Bookmarks from %@" = "Podcast-Lesezeichen von %@";
+"Can not send email. Please add a mail account to the Mail app." = "Kann E-Mail nicht versenden. Bitte erstellen Sie ein E-Mail Benutzerkonto.";
+"Cancel" = "Abbrechen";
+"Mail not configured." = "E-Mail ist nicht konfiguriert.";
+"No Bookmarks" = "Keine Lesezeichen";
+"Save to" = "Speichern nach";
+"Send as Email" = "Als E-Mail senden";
+
+/* HTTPAuthentication.m */
+"Authenticate" = "Authentifizieren";
+"Authentication" = "Authentifizierung";
+"Authentication failed." = "Authentifizierung fehlgeschlagen.";
+"Enter password" = "Passwort eingeben";
+"Enter username" = "Benutzername eingeben";
+
+/* NotificationSettingsViewController.m */
+"Account required." = "Account benötigt.";
+"An Instacast Cloud account is required in order to receive episode updates from Instacast Cloud. Please sign in or create a new account." = "Ein Instacast Cloud Account wird benötigt, um schnelle Folgenaktualisierungen über Instacast Cloud zu erhalten. Bitte loggen Sie sich ein oder melden sich an.";
+"Downloading finished." = "Downloads beendet";
+"New episode available." = "Neue Folge verfügbar";
+"Notifications" = "Mitteilungen";
+"Refreshing finished." = "Fertig aktualisiert";
+"Test Notification System" = "Mitteilungssystem testen";
+"Types" = "Typen";
+"If push notifications are set up correctly on your device, and our system is running smoothly, you should receive a message within 60 seconds confirming that push notifications are working." = "Wenn Push-Mitteilungen auf Ihrem Gerät korrekt eingestellt wurden und unser System rund läuft, sollten Sie innerhalb der nächsten 60 Sekunden eine Bestätigungsmitteilung erhalten.";
+
+/* CloudAccountPurchaseMembershipCell.m */
+"%@ for 1 year" = "%@ für 1 Jahr";
+"%@ for 6 months" = "%@ für 6 Monate";
+
+/* CacheManager.m */
+"'%@' is available to play." = "'%@' ist zur Wiedergabe bereit.";
+"Downloads Finished" = "Alle Downloads beendet.";
+"New Episode" = "Neue Folge";
+
+/* BookmarksTableViewController.m */
+"Bookmarks" = "Lesezeichen";
+"Loading" = "Laden";
+"No bookmarks yet." = "Noch keine Lesezeichen";
+"Rename" = "Umbenennen";
+"Rename Bookmark" = "Lesezeichen umbenennen";
+"Share" = "Teilen";
+"Start Playing" = "Wiedergabe starten";
+
+/* DatabaseManager.m */
+"Favorites" = "Favoriten";
+"Videos" = "Videos";
+
+/* PlayerInfoViewController_v5.m */
+"Chapters" = "Kapitel";
+"Edit Bookmark" = "Bookmark bearbeiten";
+"Up Next" = "Nächste Folgen";
+
+/* GeneralSettingsViewController.m */
+"Always use Cellular Data" = "Mobile Daten immer erlauben";
+"Application Badge" = "App-Plakette";
+"Ask Before Sending" = "Vor dem Senden fragen";
+"Automatically" = "Automatisch";
+"Cellular Data (EDGE, 3G, LTE)" = "Mobile Daten (EDGE, 3G, LTE)";
+"Crash & Failure Diagnostics" = "Crash- & Fehlerdiagnose";
+"Disable Auto-Lock" = "Kein Auto-Lock";
+"Don't Send" = "Nicht senden";
+"Don't download media" = "Mediendateien nicht laden";
+"Don't use Cellular Data" = "Mobile Daten nicht erlauben";
+"Enable" = "Aktivieren";
+"General" = "Allgemein";
+"Help Vemedio improve its products and services by automatically sending reports upon application crash or failure. Reports do not include any personal or private data." = "Helfen Sie Vemedio beim Verbessern ihrer Produkte und Dienste, indem Sie die Reports automatisch versenden. Die Reports enthalten keinerlei persönliche oder private Daten.";
+"To switch to night mode automatically, please go to iOS's Settings app and allow Instacast to use Location Services." = "Bitte gehen Sie in die Systemeinstellungen und erlauben Ortungsdienste für Instacast, um Nacht-Modus automatisch zu aktivieren.";
+"Interface Sounds" = "Interfacetöne";
+"Location Services denied" = "Ortungsdienste verweigert";
+"Miscellaneous" = "Verschiedenes";
+"Night Mode" = "Nacht-Modus";
+"Night mode can be enabled automatically at sunset, and disabled automatically at sunrise. To calculate the times of sunset and sunrise, Instacast asks for your permission to gather location data. Location data is only ever gathered when you open the app – never in the background." = "Nacht-Modus kann bei Sonnenaufgang und Sonnenuntergang automatisch umgeschaltet werden. Um die Zeiten dafür zu berechnen, fragt Instacast Ihren aktuellen Standort ab. Standortdaten werden nur gesammelt, sofern sich Instacast im Vordergrund befindet, niemals im Hintergrund.";
+"Replay after Pause" = "Replay nach Pause";
+"Seeking" = "Spulen";
+"Seeking and Skipping Chapters" = "Spulen und Kapitel springen";
+"Send Reports" = "Reports senden";
+"Skipping" = "Spingen";
+"Switch Automatically" = "Automatisch umschalten";
+"System Controls" = "System Controls";
+"You can either disable the usage of cellular data completely (which might decrease the user experience when not on WiFi), enable cellular usage for everything except downloading episodes, or enable cellular usage for everything including downloading episodes. Disabling cellular data completely will also prevent iOS's cellular data alert from popping up." = "Sie können die Verwendung mobiler Daten entweder ganz abschalten, nur das Herunterladen von Mediadaten über das mobile Netzwerk verbieten oder die Nutzung mobiler Daten ganz erlauben. Das Verbieten mobiler Daten verhindert ebenfalls das Aufpoppen der Systemwarnung.";
+
+/* UtilityFunctions.m */
+"Please enter your full name." = "Bitte geben Sie Ihren Namen ein.";
+"Sharing Name" = "Ihre Name";
+
+/* DirectoryViewController.m */
+"Authors" = "Autoren";
+"Popular" = "Beliebt";
+"Search" = "Suchen";
+
+/* CacheOperation_iOS7.m */
+"Authentication required to download a file." = "Benötigt Authentifzierung zum Herunterladen einer Datei.";
+
+/* ListEpisodesTableViewController.m */
+"%d h" = "%d h";
+"Edit" = "Bearbeiten";
+
+/* FeedOptionsViewController.m */
+"Subscriptions" = "Abonnements";
+"Use switch to temporarily disable subscription. Colored disclosure triangles indicate that custom settings apply." = "Schalter betätigen um Abonnements temporär zu deaktivieren. Farbige Pfeile zeigen an, dass Einstellungen vorgenommen wurden.";
+
+/* EpisodeViewController.m */
+"File" = "Datei";
+"Published" = "Datum";
+"Re-Download" = "Erneut laden";
+"Share Link" = "Link teilen";
+"Share Show Notes" = "Show Notes teilen";
+
+/* StoreViewController.m */
+"Extensions not available." = "Erweiterungen nicht verfügbar.";
+"Free" = "Kostenlos";
+"Loading Extensions" = "Erweiterungen laden";
+"Purchasing" = "Kaufen";
+"Restore Purchases" = "Käufe wiederherstellen";
+"Restoring" = "Wiederherstellen";
+
+/* InstacastAppDelegate.m */
+"'%@' is available to stream." = "'%@' ist zum Streaming bereit.";
+"Do you want to import bookmarks from '%@'?" = "Möchten Sie Lesezeichen von '%@' importieren?";
+"Import" = "Importieren";
+"Import Bookmarks" = "Lesezeichen importieren";
+"Importing" = "Importieren";
+"Notification" = "Mitteilung";
+"Password changed" = "Passwort geändert";
+"You have been logged out. Please login again with your new password." = "Sie wurden ausgeloggt. Bitte logen Sie sich wieder mit dem neuen Passwort ein.";
+
+/* MainSidebarController.m */
+"Tap to sign in" = "Tappen zum Einloggen";
+
+/* PlaybackViewController.m */
+"Unable to play this episode because the media format is not supported." = "Die Folge kann nicht gestartet werden, da das Medienformat nicht unterstürtzt wird.";
+"No media to play." = "Keine abspielbaren Inhalte.";
+"Stream" = "Streamen";
+"Streaming with Cellular Data?" = "Streaming über mobiles Datennetzwerk?";
+"There is currently no WiFi available. Do you really want to use cellular data to stream this episode?" = "Derzeit ist kein WLAN vorhanden. Möchten Sie diese Folge wirklich über das mobile Datennetzwerk streamen?";
+
+/* DirectoryListViewController.m */
+"%d More Podcasts" = "%d weitere Podcasts";
+"Genres" = "Genre";
+
+/* SubscriptionsCollectionViewController.m */
+"Edit Subscription Settings" = "Abo-Einstellungen";
+"Sort by" = "Sortieren nach";
+
+/* OptionsViewController.m */
+"Could not find show on iTunes." = "Konnte die Sendung nicht auf iTunes finden.";
+"Export Data" = "Daten exportieren";
+"Follow @vemedio on Twitter" = "@vemedio auf Twitter folgen";
+"Instacast Bookmarks from %@" = "Instacast Lesezeichen von %@";
+"Instacast Subscriptions from %@" = "Instacast-Abonnements von %@";
+"It seems that this show is not available on iTunes." = "Es scheint so, als ob die Sendung nicht in iTunes verfügbar ist.";
+"Review on iTunes" = "Im App Store bewerten";
+"Send Data as Email" = "Daten als E-Mail senden";
+"Send Error Log as Email" = "Error-Log als E-Mail senden";
+
+/* DirectoryFeedViewController.m */
+"Copyright" = "Copyright";
+"Country" = "Land";
+"Genre" = "Genre";
+"Language" = "Sprache";
+"Load older episodes" = "Ältere Folgen laden";
+"MMM d" = "d. MMM";
+"MMM d, yy" = "d. MMM yy";
+"Other Podcasts by %@" = "Andere Podcasts von %@";
+"Owner" = "Eigentümer";
+"Page %ld" = "Seite %ld";
+"Preview" = "Vorschau";
+"Subtitle" = "Untertitel";
+"Title" = "Titel";
+
+/* ICNowPlayingActivityControl.m */
+"Now Playing" = "Sie hören";
+"Now Playing - %ld queued" = "Sie hören - %ld anstehend";
+"Stop Playback" = "Wiedergabe stoppen";
+"Show Up Next" = "Up Next anzeigen";
+
+/* Application.m */
+"No internet connection." = "Keine Internetverbindung";
+"OK" = "OK";
+"Please make sure you are connected to a cellular or WiFi network." = "Bitte verbinden Sie sich mit einem Mobil- oder Wifi-Netzwerk.";
+
+/* ICFeedParser.m */
+"Error reading podcast." = "Fehler beim Lesen des Podcasts.";
+"Returned content is a website and not a podcast feed." = "Zurückkommender Inhalt ist eine Webseite und kein Podcast-Feed.";
+"The feed could not be read because the username or password is incorrect." = "Der Feed konnte nicht empfangen werden, da entweder Benutzername oder Passwort falsch ist.";
+"The podcast could not be read, either because the feed does not exist or because the feed format is not supported." = "Der Podcast konnte nicht gelesen werden, weil entweder der Feed nicht existiert oder das Format des Feeds unbekannt ist.";
+"The podcast feed can not be found." = "Der Podcast-Feed kann nicht gefunden werden.";
+"Untitled" = "Unbenannt";
+
+/* DirectoryLanguageViewController.m */
+"Select Language" = "Sprache auswählen";
+
+/* ICOnboardingViewController.m */
+"Connection failed." = "Verbindung fehlgeschlagen";
+"Continue without Notifications" = "Ohne Mitteilungen fortfahren";
+"Continue without Instacast Cloud" = "Ohne Account fortfahren";
+"Either the email address or password is invalid. Please try again." = "E-Mail oder Passwort ungültig. Versuche es bitte erneut.";
+"Forgot Password?" = "Passwort vergessen?";
+"Logging in" = "Einloggen";
+"Notifications could not be enabled. Please go to Notification Settings and enable them manually." = "Mitteilungen konnten nicht eingeschaltet werden. Bitte gehen Sie in die Systemeinstellungen und aktivieren Sie Mitteilungen dort manuell.";
+"Notifications disabled." = "Mitteilungen deaktiviert";
+"Please check your internet connection and try again." = "Bitte überprüfen Sie ihre Internetverbindung und versuchen Sie es erneut.";
+"Sign up failed." = "Anmeldung fehlgeschlagen";
+"Signing up" = "Registrieren";
+"The service is currently not available due to maintenance. Please try again later." = "Der Dienst ist z.Z. wegen Wartung nicht erreichbar. Bitte probieren Sie es später noch einmal.";
+"Username is not available." = "Benutzernamen nicht verfügbar.";
+"Find Podcasts.\nSubscribe.\nListen and watch episodes.\nGet automatic updates.\nPersonalize your content.\nSync with Instacast Cloud." = "Podcasts finden.\nAbonnieren.\nFolgen hören und sehen.\nAutomatisch aktualisieren.\nPersonalisieren.\nSynchronisieren.";
+"Turn on notifications to be notified when new episodes are available to play." = "Schalten Sie Mitteilungen ein, um auf neue Folgen ingewiesen zu werden, sobald diese verfügbar sind.";
+"Turn on Notifications" = "Mitteilungen einschalten";
+"An Instacast Cloud account lets you sync podcasts between devices, recieve faster episode updates and get an all-inclusive membership that removes in-app purchases." = "Mit einem Instacast Cloud Account können Sie Podcasts zwischen Geräten synchronisieren, bekommen schnelle Folgen-Updates und können eine Mitgliedschaft erwerben, die alle In-App Käufe freischaltet.";
+"Log in" = "Einloggen";
+"Sign up" = "Anmelden";
+"Email" = "E-Mail";
+"Password" = "Passwort";
+
+/* EpisodesTableViewController.m */
+"Add to Up Next" = "Zu nächste Folgen hinzufügen";
+"All" = "Alle";
+"All Played" = "Alle gespielten";
+"All Unplayed" = "Alle ungespielten";
+"Clearing" = "Löschen";
+"Delete File" = "Datei löschen";
+"Delete all Played" = "Gespielte löschen";
+"Delete played content" = "Gespielte Downloads löschen";
+"Deleting" = "Löschen";
+"Deselect" = "Keine";
+"Do you still want to download the content of this episode right now?" = "Möchten Sie den Inhalt dieser Folge dennoch jetzt herunterladen?";
+"Download" = "Herunterladen";
+"Downloading over cellular has been disabled in 'General' settings." = "Das Herunterladen über das Mobile Datennetzwerk wurde in den 'Allgemein'-Einstellungen deaktiviert.";
+"Mark all as Played" = "Alle als gespielt markieren";
+"Mark all as Unplayed" = "Alle als ungespielt markieren";
+"Mark as Favorite" = "Als Favorit markieren";
+"Mark as Played" = "Als gespielt markieren";
+"Mark as Unplayed" = "Als ungespielt markieren";
+"Play Next" = "Danach wiedergeben";
+"Play Now" = "Jetzt wiedergeben";
+"Unmark Favorite" = "Favoritenmarkierung aufheben";
+"Unmark Favorites" = "Favoritenmarkierung aufheben";
+
+/* FeedEpisodesTableViewController.m */
+"No Episodes" = "Keine Folgen";
+"Reload" = "Neuladen";
+"Reloading" = "Neuladen";
+"Settings" = "Einstellungen";
+
+/* DataMigrationView */
+"Updating Database" = "Datenbank aktualisieren";
+"This process can take a few minutes depending on the size of your database" = "Dieser Prozess kann abhängig von der Größe Ihrer Datenbank einige Minuten dauern.";
+
+/* UpNextTableViewController.m */
+"Remove All" = "Alle entfernen";
+
+/* OpenInSafariActivity.m */
+"Open in Safari" = "In Safari öffnen";

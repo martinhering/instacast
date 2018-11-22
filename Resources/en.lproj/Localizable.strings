@@ -1,0 +1,520 @@
+/* Resource: Main */
+"en_US" = "en_US";
+
+/* WebController.m */
+"Close" = "Close";
+"Either the server is not available or you may not have an internet connection." = "Either the server is not available or you may not have an internet connection.";
+"Loading website failed." = "Loading website failed.";
+
+/* PlayerTimerButton.m */
+"Sleep Timer disabled." = "Sleep Timer disabled.";
+"Sleep Timer set to %d minutes." = "Sleep Timer set to %d minutes.";
+
+/* PlaylistsCollectionViewController.m */
+"%d Lists" = "%d Lists";
+"1 List" = "1 List";
+"Edit List Settings" = "Edit List Settings";
+"No Lists" = "No Lists";
+
+/* PlayerController.m */
+"Hide" = "Hide";
+"Media not loaded." = "Media not loaded.";
+"Show Notes" = "Show Notes";
+"The file is not available anymore." = "The file is not available anymore.";
+
+/* MediaFilesViewController.m */
+"1 GB" = "1 GB";
+"10 GB" = "10 GB";
+"2 GB" = "2 GB";
+"5 GB" = "5 GB";
+"512 MB" = "512 MB";
+"Are you sure you want to delete everything? Images, downloads and partial downloads will be lost!" = "Are you sure you want to delete everything? Images, downloads and partial downloads will be lost!";
+"Clearing the cache is not possible while Instacast is downloading episodes. Please try again later." = "Clearing the cache is not possible while Instacast is downloading episodes. Please try again later.";
+"Currently Downloading" = "Currently Downloading";
+"Delete All Content" = "Delete All Content";
+"Delete Content" = "Delete Content";
+"Downloaded Content" = "Downloaded Content";
+"No Limit" = "No Limit";
+"Nothing downloaded yet." = "Nothing downloaded yet.";
+"Offline Storage" = "Offline Storage";
+"Played episodes and old content will be automatically deleted when the storage limit is exceeded." = "Played episodes and old content will be automatically deleted when the storage limit is exceeded.";
+"Only Delete Played" = "Only Delete Played";
+"Storage Limit" = "Storage Limit";
+
+/* DirectorySearchViewController.m */
+"Author" = "Author";
+"Description" = "Description";
+"Search or Enter URL" = "Search or Enter URL";
+
+/* ICCloudManager.m */
+"Authentication with Instacast Cloud has failed. Please logout and login again." = "Authentication with Instacast Cloud has failed. Please logout and login again.";
+"Instacast Cloud Authentication" = "Instacast Cloud Authentication";
+"Instacast Cloud Maintenance" = "Instacast Cloud Maintenance";
+"Instacast Cloud is temporary unavailable. Normal service will be back soon!" = "Instacast Cloud is temporary unavailable. Normal service will be back soon!";
+"Request failed." = "Request failed.";
+
+/* FeedSettingsViewController.m */
+"1 Minute" = "1 Minute";
+"10 Minutes" = "10 Minutes";
+"10 Seconds" = "10 Seconds";
+"2 Minutes" = "2 Minutes";
+"20 Seconds" = "20 Seconds";
+"30 Seconds" = "30 Seconds";
+"5 Minutes" = "5 Minutes";
+"5 Seconds" = "5 Seconds";
+"Are you sure you want to reset all custom subscription settings to default?" = "Are you sure you want to reset all custom subscription settings to default?";
+"Audio Content" = "Audio Content";
+"Auto-Delete Content" = "Auto-Delete Content";
+"Auto-Download Content" = "Auto-Download Content";
+"Crazy (3x)" = "Crazy (3x)";
+"Enable News Mode to only keep the most recent episode(s) of a podcast." = "Enable News Mode to only keep the most recent episode(s) of a podcast.";
+"Enable to show all episodes regardless of whether or not they are still available on the publisher's server." = "Enable to show all episodes regardless of whether or not they are still available on the publisher's server.";
+"Episodes" = "Episodes";
+"Fast (2x)" = "Fast (2x)";
+"Faster (1.5x)" = "Faster (1.5x)";
+"Finished Playing" = "Finished Playing";
+"Marked as Played" = "Marked as Played";
+"Newest First" = "Newest First";
+"News Mode" = "News Mode";
+"Normal (1x)" = "Normal (1x)";
+"Oldest First" = "Oldest First";
+"Playback" = "Playback";
+"Reset" = "Reset";
+"Reset to Defaults" = "Reset to Defaults";
+"Resets subscription specific settings back to default settings." = "Resets subscription specific settings back to default settings.";
+"Show Unavailable Episodes" = "Show Unavailable Episodes";
+"Skipping Back" = "Skipping Back";
+"Skipping Forward" = "Skipping Forward";
+"Slower (0.5x)" = "Slower (0.5x)";
+"Sort Order" = "Sort Order";
+"Speed" = "Speed";
+"Subscription Settings" = "Subscription Settings";
+"Video Content" = "Video Content";
+
+/* SubscriptionManager.m */
+"Last Updated: %@" = "Last Updated: %@";
+"New episode available in Instacast." = "New episode available in Instacast.";
+"Refreshing finished and %d new episodes are available." = "Refreshing finished and %d new episodes are available.";
+"Refreshing finished and a new episode is available." = "Refreshing finished and a new episode is available.";
+"Refreshing finished and there are no new episodes available." = "Refreshing finished and there are no new episodes available.";
+
+/* EpisodeShareController.m */
+"%d hours" = "%d hours";
+"%d minutes" = "%d minutes";
+"1 hour" = "1 hour";
+"1 minute" = "1 minute";
+"Copy Share URL" = "Copy Share URL";
+"Share on Twitter" = "Share on Twitter";
+"Share via Email" = "Share via Email";
+"Share via Tweetbot" = "Share via Tweetbot";
+"Sharing" = "Sharing";
+"at %@" = "at %@";
+"at %@ %@" = "at %@ %@";
+"at the beginning" = "at the beginning";
+
+/* DownloadsViewController.m */
+"%@ left" = "%@ left";
+"%@ of %@" = "%@ of %@";
+"Cancel All" = "Cancel All";
+"Downloads" = "Downloads";
+"Downloads paused" = "Downloads paused";
+"Resume" = "Resume";
+"Pause" = "Pause";
+"Paused" = "Paused";
+"Waiting to download" = "Waiting to download";
+
+/* FeedViewController.m */
+"Are you sure you want to unsubscribe '%@'?" = "Are you sure you want to unsubscribe '%@'?";
+"Podcast Info" = "Podcast Info";
+"Unsubscribe" = "Unsubscribe";
+"Updated" = "Updated";
+"Website" = "Website";
+
+/* PlayerSpeedButton.m */
+"Playback set to 1.5x speed." = "Playback set to 1.5x speed.";
+"Playback set to double speed." = "Playback set to double speed.";
+"Playback set to half speed." = "Playback set to half speed.";
+"Playback set to original speed." = "Playback set to original speed.";
+"Playback set to triple speed." = "Playback set to triple speed.";
+
+/* ICCloudAccount.m */
+"Your name?" = "Your name?";
+
+/* ICProgressSlider.m */
+"Slider Knob" = "Slider Knob";
+"Swipe left or right to adjust %@." = "Swipe left or right to adjust %@.";
+
+/* PlayerFullscreenVideoViewController.m */
+"Done" = "Done";
+
+/* EpisodesTableViewCell.m */
+"%d h %d min" = "%d h %d min";
+"%d min" = "%d min";
+"Delete" = "Delete";
+"More" = "More";
+"No Title" = "No Title";
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+
+/* PlaybackControlsViewController.m */
+"Add Bookmark" = "Add Bookmark";
+"Backward" = "Backward";
+"Fine Scrubbing" = "Fine Scrubbing";
+"Forward" = "Forward";
+"Half-Speed Scrubbing" = "Half-Speed Scrubbing";
+"Hi-Speed Scrubbing" = "Hi-Speed Scrubbing";
+"Pause" = "Pause";
+"Play" = "Play";
+"Playback time set to %d:%02d:%02d" = "Playback time set to %d:%02d:%02d";
+"Please enter a bookmark title." = "Please enter a bookmark title.";
+"Quarter-Speed Scrubbing" = "Quarter-Speed Scrubbing";
+"Time Value" = "Time Value";
+
+/* MainViewController_4.m */
+"Extensions" = "Extensions";
+"Lists" = "Lists";
+"Podcasts" = "Podcasts";
+"Syncing" = "Syncing";
+
+/* StoreMembershipViewController.m */
+"Purchase Instacast Cloud membership to unlock all extensions." = "Purchase Instacast Cloud membership to unlock all extensions.";
+"If you have an Instacast Cloud membership, please sign in to unlock all extensions." = "If you have an Instacast Cloud membership, please sign in to unlock all extensions.";
+"Show Memberships" = "Show Memberships";
+"Sign in" = "Sign in";
+
+/* CloudAccountViewController.m */
+"Account" = "Account";
+"Auto-Flattr" = "Auto-Flattr";
+"Automatic payments are turned off – either because Instacast Cloud membership has been canceled, or because Instacast Cloud membership has been purchased through the App Store." = "Automatic payments are turned off – either because Instacast Cloud membership has been canceled, or because Instacast Cloud membership has been purchased through the App Store.";
+"Email" = "Email";
+"Extend Basic Membership" = "Extend Basic Membership";
+"Extend Senator Membership" = "Extend Senator Membership";
+"Purchase Basic Membership" = "Purchase Basic Membership";
+"Purchase Senator Membership" = "Purchase Senator Membership";
+"Log out" = "Log out";
+"Membership" = "Membership";
+"Name" = "Name";
+"Not activated" = "Not activated";
+"Profile" = "Profile";
+"Services" = "Services";
+"You have a lifetime membership." = "You have a lifetime membership.";
+"You are not an Instacast Cloud member. Be awesome and get your membership today!\n\nMemberships unlock all in-app purchases for free and also include a free Instacast Mac license." = "You are not an Instacast Cloud member. Be awesome and get your membership today!\n\nMemberships unlock all in-app purchases for free and also include a free Instacast Mac license.";
+"Your membership is active until %@." = "Your membership is active until %@.";
+"Your membership is active. Next automatic payment on %@." = "Your membership is active. Next automatic payment on %@.";
+
+/* EpisodeListEditorViewController.m */
+"%@ Extension locked!" = "%@ Extension locked!";
+"%@ is available as an optional in-app purchase. Please go to 'Extensions' in the main menu and purchase '%@'." = "%@ is available as an optional in-app purchase. Please go to 'Extensions' in the main menu and purchase '%@'.";
+"Add" = "Add";
+"Add Selected Podcasts" = "Add Selected Podcasts";
+"All Podcasts" = "All Podcasts";
+"Appearance" = "Appearance";
+"Ascending" = "Ascending";
+"Audio" = "Audio";
+"Contains Keyword" = "Contains Keyword";
+"Continuous Playback" = "Continuous Playback";
+"Deactivate attributes of episodes that should not be included in this episode list." = "Deactivate attributes of episodes that should not be included in this episode list.";
+"Descending" = "Descending";
+"Downloaded" = "Downloaded";
+"Duration" = "Duration";
+"Edit List" = "Edit List";
+"Enable 'Continuous Playback' to copy remaining episodes to Up Next when playback starts." = "Enable 'Continuous Playback' to copy remaining episodes to Up Next when playback starts.";
+"Enable 'Group by Podcast' to order episodes according to podcast priority. Change the podcast priority by manually reordering podcasts in the podcast list." = "Enable 'Group by Podcast' to order episodes according to podcast priority. Change the podcast priority by manually reordering podcasts in the podcast list.";
+"Enter a keyword that episodes must contain." = "Enter a keyword that episodes must contain.";
+"Group by Podcast" = "Group by Podcast";
+"Include Attributes" = "Include Attributes";
+"Include Podcasts" = "Include Podcasts";
+"Keyword" = "Keyword";
+"Last Downloaded" = "Last Downloaded";
+"Last Played" = "Last Played";
+"New List" = "New List";
+"Not Downloaded" = "Not Downloaded";
+"Not Starred" = "Not Starred";
+"Order By" = "Order By";
+"Order Options" = "Order Options";
+"Played" = "Played";
+"Publish Date" = "Publish Date";
+"Remove" = "Remove";
+"Save" = "Save";
+"Show" = "Show";
+"Starred" = "Starred";
+"Time Left" = "Time Left";
+"Unfinished" = "Unfinished";
+"Unplayed" = "Unplayed";
+"Video" = "Video";
+
+/* SubscriptionsTableViewController.m */
+"1 subscription" = "1 subscription";
+"1 subscription found" = "1 subscription found";
+"No subscription" = "No subscription";
+"No subscription found" = "No subscription found";
+"Shows list of podcast episodes." = "Shows list of podcast episodes.";
+"%d Subscriptions found" = "%d Subscriptions found";
+
+/* PlaylistsTableViewController.m */
+"Looking for new episodes" = "Looking for new episodes";
+"Pull to refresh" = "Pull to refresh";
+
+/* DirectoryAuthorsViewController.m */
+"%d More Authors" = "%d More Authors";
+
+/* BookmarksCollectionViewController.m */
+"%d Bookmarks" = "%d Bookmarks";
+"%d Episodes" = "%d Episodes";
+"1 Bookmark" = "1 Bookmark";
+"1 Episode" = "1 Episode";
+"Bookmarks from %@" = "Bookmarks from %@";
+"Can not send email. Please add a mail account to the Mail app." = "Can not send email. Please add a mail account to the Mail app.";
+"Cancel" = "Cancel";
+"Mail not configured." = "Mail not configured.";
+"No Bookmarks" = "No Bookmarks";
+"Save to" = "Save to";
+"Send as Email" = "Send as Email";
+
+/* HTTPAuthentication.m */
+"Authenticate" = "Authenticate";
+"Authentication" = "Authentication";
+"Authentication failed." = "Authentication failed.";
+"Enter password" = "Enter password";
+"Enter username" = "Enter username";
+
+/* NotificationSettingsViewController.m */
+"Account required." = "Account required.";
+"An Instacast Cloud account is required in order to receive episode updates from Instacast Cloud. Please sign in or create a new account." = "An Instacast Cloud account is required in order to receive episode updates from Instacast Cloud. Please sign in or create a new account.";
+"Downloading finished." = "Downloading finished.";
+"New episode available." = "New episode available.";
+"Notifications" = "Notifications";
+"Refreshing finished." = "Refreshing finished.";
+"Test Notification System" = "Test Notification System";
+"Types" = "Types";
+"If push notifications are set up correctly on your device, and our system is running smoothly, you should receive a message within 60 seconds confirming that push notifications are working." = "If push notifications are set up correctly on your device, and our system is running smoothly, you should receive a message within 60 seconds confirming that push notifications are working.";
+
+/* CloudAccountPurchaseMembershipCell.m */
+"%@ for 1 year" = "%@ for 1 year";
+"%@ for 6 months" = "%@ for 6 months";
+
+/* CacheManager.m */
+"'%@' is available to play." = "'%@' is available to play.";
+"Downloads Finished" = "Downloads Finished";
+"New Episode" = "New Episode";
+
+/* BookmarksTableViewController.m */
+"Bookmarks" = "Bookmarks";
+"Loading" = "Loading";
+"No bookmarks yet." = "No bookmarks yet.";
+"Rename" = "Rename";
+"Rename Bookmark" = "Rename Bookmark";
+"Share" = "Share";
+"Start Playing" = "Start Playing";
+
+/* DatabaseManager.m */
+"Favorites" = "Favorites";
+"Videos" = "Videos";
+
+/* PlayerInfoViewController_v5.m */
+"Chapters" = "Chapters";
+"Edit Bookmark" = "Edit Bookmark";
+"Up Next" = "Up Next";
+
+/* GeneralSettingsViewController.m */
+"Always use Cellular Data" = "Always use Cellular Data";
+"Application Badge" = "Application Badge";
+"Ask Before Sending" = "Ask Before Sending";
+"Automatically" = "Automatically";
+"Cellular Data (EDGE, 3G, LTE)" = "Cellular Data (EDGE, 3G, LTE)";
+"Crash & Failure Diagnostics" = "Crash & Failure Diagnostics";
+"Disable Auto-Lock" = "Disable Auto-Lock";
+"Don't Send" = "Don't Send";
+"Don't download media" = "Don't download media";
+"Don't use Cellular Data" = "Don't use Cellular Data";
+"Enable" = "Enable";
+"General" = "General";
+"Help Vemedio improve its products and services by automatically sending reports upon application crash or failure. Reports do not include any personal or private data." = "Help Vemedio improve its products and services by automatically sending reports upon application crash or failure. Reports do not include any personal or private data.";
+"To switch to night mode automatically, please go to iOS's Settings app and allow Instacast to use Location Services." = "To switch to night mode automatically, please go to iOS's Settings app and allow Instacast to use Location Services.";
+"Interface Sounds" = "Interface Sounds";
+"Location Services denied" = "Location Services denied";
+"Miscellaneous" = "Miscellaneous";
+"Night Mode" = "Night Mode";
+"Night mode can be enabled automatically at sunset, and disabled automatically at sunrise. To calculate the times of sunset and sunrise, Instacast asks for your permission to gather location data. Location data is only ever gathered when you open the app – never in the background." = "Night mode can be enabled automatically at sunset, and disabled automatically at sunrise. To calculate the times of sunset and sunrise, Instacast asks for your permission to gather location data. Location data is only ever gathered when you open the app – never in the background.";
+"Replay after Pause" = "Replay after Pause";
+"Seeking" = "Seeking";
+"Seeking and Skipping Chapters" = "Seeking and Skipping Chapters";
+"Send Reports" = "Send Reports";
+"Skipping" = "Skipping";
+"Switch Automatically" = "Switch Automatically";
+"System Controls" = "System Controls";
+"You can either disable the usage of cellular data completely (which might decrease the user experience when not on WiFi), enable cellular usage for everything except downloading episodes, or enable cellular usage for everything including downloading episodes. Disabling cellular data completely will also prevent iOS's cellular data alert from popping up." = "You can either disable the usage of cellular data completely (which might decrease the user experience when not on WiFi), enable cellular usage for everything except downloading episodes, or enable cellular usage for everything including downloading episodes. Disabling cellular data completely will also prevent iOS's cellular data alert from popping up.";
+
+/* UtilityFunctions.m */
+"Please enter your full name." = "Please enter your full name.";
+"Sharing Name" = "Sharing Name";
+
+/* DirectoryViewController.m */
+"Authors" = "Authors";
+"Popular" = "Popular";
+"Search" = "Search";
+
+/* CacheOperation_iOS7.m */
+"Authentication required to download a file." = "Authentication required to download a file.";
+
+/* ListEpisodesTableViewController.m */
+"%d h" = "%d h";
+"Edit" = "Edit";
+
+/* FeedOptionsViewController.m */
+"Subscriptions" = "Subscriptions";
+"Use switch to temporarily disable subscription. Colored disclosure triangles indicate that custom settings apply." = "Use switch to temporarily disable subscription. Colored disclosure triangles indicate that custom settings apply.";
+
+/* EpisodeViewController.m */
+"File" = "File";
+"Published" = "Published";
+"Re-Download" = "Re-Download";
+"Share Link" = "Share Link";
+"Share Show Notes" = "Share Show Notes";
+
+/* StoreViewController.m */
+"Extensions not available." = "Extensions not available.";
+"Free" = "Free";
+"Loading Extensions" = "Loading Extensions";
+"Purchasing" = "Purchasing";
+"Restore Purchases" = "Restore Purchases";
+"Restoring" = "Restoring";
+
+/* InstacastAppDelegate.m */
+"'%@' is available to stream." = "'%@' is available to stream.";
+"Do you want to import bookmarks from '%@'?" = "Do you want to import bookmarks from '%@'?";
+"Import" = "Import";
+"Import Bookmarks" = "Import Bookmarks";
+"Importing" = "Importing";
+"Notification" = "Notification";
+"Password changed" = "Password changed";
+"You have been logged out. Please login again with your new password." = "You have been logged out. Please login again with your new password.";
+
+/* MainSidebarController.m */
+"Tap to sign in" = "Tap to sign in";
+
+/* PlaybackViewController.m */
+"Unable to play this episode because the media format is not supported." = "Unable to play this episode because the media format is not supported.";
+"No media to play." = "No media to play.";
+"Stream" = "Stream";
+"Streaming with Cellular Data?" = "Streaming with Cellular Data?";
+"There is currently no WiFi available. Do you really want to use cellular data to stream this episode?" = "There is currently no WiFi available. Do you really want to use cellular data to stream this episode?";
+
+/* DirectoryListViewController.m */
+"%d More Podcasts" = "%d More Podcasts";
+"Genres" = "Genres";
+
+/* SubscriptionsCollectionViewController.m */
+"Edit Subscription Settings" = "Edit Subscription Settings";
+"Sort by" = "Sort by";
+
+/* OptionsViewController.m */
+"Could not find show on iTunes." = "Could not find show on iTunes.";
+"Export Data" = "Export Data";
+"Follow @vemedio on Twitter" = "Follow @vemedio on Twitter";
+"Instacast Bookmarks from %@" = "Instacast Bookmarks from %@";
+"Instacast Subscriptions from %@" = "Instacast Subscriptions from %@";
+"It seems that this show is not available on iTunes." = "It seems that this show is not available on iTunes.";
+"Review on iTunes" = "Review on iTunes";
+"Send Data as Email" = "Send Data as Email";
+"Send Error Log as Email" = "Send Error Log as Email";
+
+/* DirectoryFeedViewController.m */
+"Copyright" = "Copyright";
+"Country" = "Country";
+"Genre" = "Genre";
+"Language" = "Language";
+"Load older episodes" = "Load older episodes";
+"MMM d" = "MMM d";
+"MMM d, yy" = "MMM d, yy";
+"Other Podcasts by %@" = "Other Podcasts by %@";
+"Owner" = "Owner";
+"Page %ld" = "Page %ld";
+"Preview" = "Preview";
+"Subtitle" = "Subtitle";
+"Title" = "Title";
+
+/* ICNowPlayingActivityControl.m */
+"Now Playing" = "Now Playing";
+"Now Playing - %ld queued" = "Now Playing - %ld queued";
+"Stop Playback" = "Stop Playback";
+"Show Up Next" = "Show Up Next";
+
+/* Application.m */
+"No internet connection." = "No internet connection.";
+"OK" = "OK";
+"Please make sure you are connected to a cellular or WiFi network." = "Please make sure you are connected to a cellular or WiFi network.";
+
+/* ICFeedParser.m */
+"Error reading podcast." = "Error reading podcast.";
+"Returned content is a website and not a podcast feed." = "Returned content is a website and not a podcast feed.";
+"The feed could not be read because the username or password is incorrect." = "The feed could not be read because the username or password is incorrect.";
+"The podcast could not be read, either because the feed does not exist or because the feed format is not supported." = "The podcast could not be read, either because the feed does not exist or because the feed format is not supported.";
+"The podcast feed can not be found." = "The podcast feed can not be found.";
+"Untitled" = "Untitled";
+
+/* DirectoryLanguageViewController.m */
+"Select Language" = "Select Language";
+
+/* ICOnboardingViewController.m */
+"Connection failed." = "Connection failed.";
+"Continue without Notifications" = "Continue without Notifications";
+"Continue without Instacast Cloud" = "Continue without Instacast Cloud";
+"Either the email address or password is invalid. Please try again." = "Either the email address or password is invalid. Please try again.";
+"Forgot Password?" = "Forgot Password?";
+"Logging in" = "Logging in";
+"Notifications could not be enabled. Please go to Notification Settings and enable them manually." = "Notifications could not be enabled. Please go to Notification Settings and enable them manually.";
+"Notifications disabled." = "Notifications disabled.";
+"Please check your internet connection and try again." = "Please check your internet connection and try again.";
+"Sign up failed." = "Sign up failed.";
+"Signing up" = "Signing up";
+"The service is currently not available due to maintenance. Please try again later." = "The service is currently not available due to maintenance. Please try again later.";
+"Username is not available." = "Username is not available.";
+"Find Podcasts.\nSubscribe.\nListen and watch episodes.\nGet automatic updates.\nPersonalize your content.\nSync with Instacast Cloud." = "Find Podcasts.\nSubscribe.\nListen and watch episodes.\nGet automatic updates.\nPersonalize your content.\nSync with Instacast Cloud.";
+"Turn on notifications to be notified when new episodes are available to play." = "Turn on notifications to be notified when new episodes are available to play.";
+"Turn on Notifications" = "Turn on Notifications";
+"An Instacast Cloud account lets you sync podcasts between devices, recieve faster episode updates and get an all-inclusive membership that removes in-app purchases." = "An Instacast Cloud account lets you sync podcasts between devices, recieve faster episode updates and get an all-inclusive membership that removes in-app purchases.";
+"Log in" = "Log in";
+"Sign up" = "Sign up";
+"Email" = "Email";
+"Password" = "Password";
+
+/* EpisodesTableViewController.m */
+"Add to Up Next" = "Add to Up Next";
+"All" = "All";
+"All Played" = "All Played";
+"All Unplayed" = "All Unplayed";
+"Clearing" = "Clearing";
+"Delete File" = "Delete File";
+"Delete all Played" = "Delete all Played";
+"Delete played content" = "Delete played content";
+"Deleting" = "Deleting";
+"Deselect" = "Deselect";
+"Do you still want to download the content of this episode right now?" = "Do you still want to download the content of this episode right now?";
+"Download" = "Download";
+"Downloading over cellular has been disabled in 'General' settings." = "Downloading over cellular has been disabled in 'General' settings.";
+"Mark all as Played" = "Mark all as Played";
+"Mark all as Unplayed" = "Mark all as Unplayed";
+"Mark as Favorite" = "Mark as Favorite";
+"Mark as Played" = "Mark as Played";
+"Mark as Unplayed" = "Mark as Unplayed";
+"Play Next" = "Play Next";
+"Play Now" = "Play Now";
+"Unmark Favorite" = "Unmark Favorite";
+"Unmark Favorites" = "Unmark Favorites";
+
+/* FeedEpisodesTableViewController.m */
+"No Episodes" = "No Episodes";
+"Reload" = "Reload";
+"Reloading" = "Reloading";
+"Settings" = "Settings";
+
+/* DataMigrationView */
+"Updating Database" = "Updating Database";
+"This process can take a few minutes depending on the size of your database" = "This process can take a few minutes depending on the size of your database";
+
+/* UpNextTableViewController.m */
+"Remove All" = "Remove All";
+
+/* OpenInSafariActivity.m */
+"Open in Safari" = "Open in Safari";

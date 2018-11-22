@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5E111B2B3CC36895AD6FF4343BDAB8C11ED2B7AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FDE792E8ABE4E20924E7019E5CB2FD71BB2EE359" : 0,
+    "7B562D99E4AE184E0467B80DE27282D22A0DFEE8" : 0,
+    "5E111B2B3CC36895AD6FF4343BDAB8C11ED2B7AE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4FBC6105-B789-4612-BF11-C625760D602B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FDE792E8ABE4E20924E7019E5CB2FD71BB2EE359" : "Frameworks\/VemedioDatabase\/",
+    "7B562D99E4AE184E0467B80DE27282D22A0DFEE8" : "Frameworks\/VMFoundation\/",
+    "5E111B2B3CC36895AD6FF4343BDAB8C11ED2B7AE" : "Instacast-git\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Instacast",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Instacast.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/vault.vemedio\/volume1\/Vemedio\/Git\/Instacast",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E111B2B3CC36895AD6FF4343BDAB8C11ED2B7AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/vault.vemedio\/volume1\/Vemedio\/Git\/VMFoundation",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B562D99E4AE184E0467B80DE27282D22A0DFEE8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/martinhering\/VemedioDatabase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDE792E8ABE4E20924E7019E5CB2FD71BB2EE359"
+    }
+  ]
+}

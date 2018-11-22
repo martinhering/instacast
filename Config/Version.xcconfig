@@ -1,0 +1,11 @@
+//
+//  Version.xcconfig
+//  Instacast
+//
+//  Created by Martin Hering on 25.01.11.
+//  Copyright 2011 Vemedio. All rights reserved.
+//
+
+BUNDLE_VERSION = 6.1
+GCC_PREPROCESSOR_DEFINITIONS=
+
