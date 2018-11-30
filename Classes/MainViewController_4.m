@@ -24,6 +24,7 @@
 #import "StatusBarFixingViewController.h"
 
 #import "VDModalInfo.h"
+#import "DeviceConstants.h"
 
 typedef NS_ENUM(NSInteger, MainSidebarItemTags) {
     kMainSidebarItemSubscriptions   = 2,
@@ -323,9 +324,7 @@ typedef NS_ENUM(NSInteger, MainSidebarItemTags) {
 
 - (UIViewController*) _statusBarAdjustingContainerViewControllerForViewController:(UIViewController*)viewController
 {
-    CGRect screenBounds = [UIScreen mainScreen].bounds;
-    BOOL xScreen = (CGRectGetWidth(screenBounds) == 375 && CGRectGetHeight(screenBounds) == 812);
-    CGFloat statusbarHeight = (xScreen) ? 44 : 20;
+    CGFloat statusbarHeight = IS_IPHONE_X_OR_BIGGER ? 44 : 20;
     
     StatusBarFixingViewController* vc = [[StatusBarFixingViewController alloc] initWithNibName:nil bundle:nil];
     vc.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
