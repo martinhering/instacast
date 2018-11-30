@@ -754,6 +754,7 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Instacast_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instacast_Prefix.pch; sourceTree = "<group>"; };
+		DAAE58A021B13B3A00A36B4A /* DeviceConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1206,6 +1207,7 @@
 				1BB0D53A1A0A0ADE00B619C8 /* SFHFKeychainUtils.m */,
 				1BB0D53D1A0A0B0300B619C8 /* Reachability.h */,
 				1BB0D53E1A0A0B0300B619C8 /* Reachability.m */,
+				DAAE58A021B13B3A00A36B4A /* DeviceConstants.h */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
