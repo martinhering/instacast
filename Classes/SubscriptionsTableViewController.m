@@ -186,7 +186,7 @@
         }
         
         unsigned long long megaBytes = [[CacheManager sharedCacheManager] numberOfDownloadedBytes];
-        if (megaBytes == 0LLU) {
+        if (megaBytes < 1000LLU) {
             self.toolbarLabelsViewController.auxiliaryText = nil;
         }
         else {
