@@ -114,7 +114,12 @@ static NSString* gPathToCache = nil;
     return [DMANAGER.fileCacheURL path];
 }
 
-
++ (NSString*) _pathToFileIndex
+{
+    return [[CacheManager _pathToStorageLocation]
+        stringByAppendingPathComponent:@"FileIndex.plist"];
+}
+    
 + (CacheManager*) sharedCacheManager;
 {
 	if (!gSharedCacheManager) {
@@ -774,7 +779,7 @@ static NSString* gPathToCache = nil;
         [index addObject:entry];
     }
     
-    NSString* fileIndexPath = [[CacheManager _pathToStorageLocation] stringByAppendingPathComponent:@"FileIndex.plist"];
+    NSString* fileIndexPath = [CacheManager _pathToFileIndex];
     [index writeToFile:fileIndexPath atomically:YES];
 }
 
@@ -1169,8 +1174,11 @@ static NSString* gPathToCache = nil;
                 NSError* error = nil;
                 NSDictionary* fileAttributes = [fman attributesOfItemAtPath:path error:&error];
                 if (!error) {
-                    unsigned long long fileSize = [fileAttributes fileSize];
-                    size += fileSize;
+                    if (![path isEqualToString:[CacheManager _pathToFileIndex]])
+                    {
+                        unsigned long long fileSize = [fileAttributes fileSize];
+                        size += fileSize;
+                    }
                 }
             }
         }
